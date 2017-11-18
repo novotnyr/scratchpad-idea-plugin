@@ -1,0 +1,30 @@
+<idea-plugin>
+    <id>com.github.novotnyr.scratchpad-idea-plugin</id>
+    <name>Scratchpad</name>
+    <version>0.1</version>
+    <vendor email="novotnr0@gmail.com" url="https://github.com/novotnyr/scratchpad-idea-plugin">Róbert Novotný</vendor>
+
+
+    <description><![CDATA[
+    ]]></description>
+
+    <change-notes><![CDATA[
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="143.0"/>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Scratchpad"
+                    anchor="bottom"
+                    secondary="true"
+                    factoryClass="com.github.novotnyr.idea.scratchpad.ToolWindowFactory"/>
+    </extensions>
+
+    <actions>
+    </actions>
+
+</idea-plugin>
